@@ -1,5 +1,6 @@
 # clarincuration-docker
 Dockerize the [Clarin-Curation Module](https://github.com/clarin-eric/clarin-curation-module).
+Thanks to Davor Ostojić for hints on installation.
 
 ### Build the image
 To create the dockerimage run
