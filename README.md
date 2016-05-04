@@ -7,3 +7,9 @@ To create the dockerimage run
 docker build -t clarincurate https://github.com/fkuhn/clarincuration-docker
 ```
 which will generate an image named clarincurate.
+
+Run the image as container  in interactive mode with
+
+```bash
+docker run -i -t clarincuration /bin/bash
+```
