@@ -5,3 +5,4 @@ To create the dockerimage run
 ```bash
 docker build -t clarincurate https://github.com/fkuhn/clarincuration-docker
 ```
+which will generate an image named clarincurate.
