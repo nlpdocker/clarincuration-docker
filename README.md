@@ -1,2 +1,2 @@
 # clarincuration-docker
-This is a dockerfile to dockerize the Clarin-Curation Module
+This is a dockerfile to dockerize the [Clarin-Curation Module](https://github.com/clarin-eric/clarin-curation-module)
