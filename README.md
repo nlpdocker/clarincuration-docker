@@ -14,5 +14,5 @@ which will generate an image named clarincurate.
 Run the image as container  in interactive mode with
 
 ```bash
-docker run -i -t clarincuration /bin/bash
+docker run -i -t clarincurate /bin/bash
 ```
