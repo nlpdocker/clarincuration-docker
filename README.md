@@ -5,7 +5,7 @@ Dockerize the [Clarin-Curation Module](https://github.com/clarin-eric/clarin-cur
 To create the dockerimage run
 
 ```bash
-docker build -t clarincurate https://github.com/fkuhn/clarincuration-docker
+docker build -t clarincurate https://github.com/fkuhn/clarincuration-docker.git
 ```
 which will generate an image named clarincurate.
 
