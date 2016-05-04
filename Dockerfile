@@ -15,7 +15,7 @@ RUN apt-get install -y maven
 
 # Install vtd-xml 2.12
 WORKDIR /tmp
-RUN wget -no-check-certificate https://62.113.211.193/tools/vtd-xml-2.12.jar
+RUN wget --no-check-certificate https://62.113.211.193/tools/vtd-xml-2.12.jar
 RUN mvn install:install-file -Dfile=vtd-xml-2.12.jar -DgroupId=com.ximpleware -DartifactId=vtd-xml -Dversion=2.12 -Dpackaging=jar
 RUN rm vtd-xml-2.12.jar
 
