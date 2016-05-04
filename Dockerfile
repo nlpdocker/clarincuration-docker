@@ -28,3 +28,8 @@ RUN mvn clean package
 # copy depencies to use core libs via cli
 WORKDIR /opt/clarin-curation-module/curation-module-core
 RUN mvn dependency:copy-dependencies
+
+# How to start the curation module via cli
+# java -cp curate.jar:path_to_maven_dependecies/* eu.clarin.cmdi.curation.main.Main -help
+# or 
+# java -cp curate.jar:path_to_maven_dependecies/* eu.clarin.cmdi.curation.main.Main
