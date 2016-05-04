@@ -17,3 +17,4 @@ Run the image as container  in interactive mode with
 ```bash
 docker run -i -t clarincurate /bin/bash
 ```
+Entrypoint is /opt/clarin-curation-module/curation-module-core/target.
