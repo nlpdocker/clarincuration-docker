@@ -25,6 +25,6 @@ RUN git clone https://github.com/clarin-eric/clarin-curation-module.git
 WORKDIR /opt/clarin-curation-module
 RUN mvn clean package
 
-# copy depencies to use the core libs via cli
+# copy depencies to use core libs via cli
 WORKDIR /opt/clarin-curation-module/curation-module-core
 RUN mvn dependency:copy-dependencies
