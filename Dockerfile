@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Florian Kuhn <kuhn@ids-mannheim.de>
 RUN apt-get update
 RUN apt-get install -y software-properties-common
-RUN apt-get install git
+RUN apt-get install -y git
 
 # Install oracle java 8 
 RUN add-apt-repository ppa:webupd8team/java
@@ -11,7 +11,7 @@ RUN apt-get update
 RUN yes | apt-get install oracle-java8-installer
 
 # Install maven
-RUN apt-get install maven
+RUN apt-get install -y maven
 
 # Install vtd-xml 2.12
 WORKDIR /tmp
