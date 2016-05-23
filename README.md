@@ -10,6 +10,12 @@ docker build -t clarincurate https://github.com/fkuhn/clarincuration-docker.git
 ```
 which will generate an image named clarincurate.
 
+Since clarin-curation-module is in active development, you should consider regular updates.
+You can force docker to ignore its cache when building the curation image again:
+```bash
+docker build --no-cache -t clarincurate https://github.com/fkuhn/clarincuration-docker.git
+```
+
 
 ### Run as container
 Run the image as container  in interactive mode with
