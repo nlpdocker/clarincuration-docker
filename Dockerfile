@@ -31,7 +31,8 @@ RUN mvn dependency:copy-dependencies
 WORKDIR /opt/clarin-curation-module/curation-module-core/target
 # rename the jarfile to something less spacious
 RUN mv curation-module-core*.jar curate.jar
-
+WORKDIR /
+RUN alias startcurate="java -jar /opt/clarin-curation-module/curation-module-core/target/curate.jar"
 # How to start the curation module via cli
 # java -cp curate.jar:path_to_maven_dependecies/* eu.clarin.cmdi.curation.main.Main -help
 # or 
