@@ -16,8 +16,12 @@ You can force docker to ignore its cache when building the curation image again:
 docker build --no-cache -t clarincurate https://github.com/fkuhn/clarincuration-docker.git
 ```
 
+## Usage
 
-### Run as container
+docker run clarincurate startcurate ...
+
+
+### Run container interactively
 Run the image as container  in interactive mode with
 
 ```bash
