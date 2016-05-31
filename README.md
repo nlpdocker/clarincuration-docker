@@ -13,7 +13,7 @@ which will generate an image named clarincurate.
 Since clarin-curation-module is in active development, you should consider regular updates.
 You can force docker to ignore its cache when building the curation image again:
 ```bash
-docker build --no-cache -t clarincurate https://github.com/fkuhn/clarincuration-docker.git
+docker build --no-cache=true -t clarincurate https://github.com/fkuhn/clarincuration-docker.git
 ```
 
 ## Usage
