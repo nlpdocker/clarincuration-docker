@@ -36,3 +36,4 @@ RUN mv curation-module-core*.jar curate.jar
 # java -cp curate.jar:path_to_maven_dependecies/* eu.clarin.cmdi.curation.main.Main -help
 # or 
 # java -cp curate.jar:path_to_maven_dependecies/* eu.clarin.cmdi.curation.main.Main
+ENTRYPOINT ["opt/clarin-curation-module/curation-module-core/target", "-D", "FOREGROUND"]
